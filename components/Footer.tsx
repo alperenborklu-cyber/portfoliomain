@@ -6,15 +6,12 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#080808] pt-24 pb-8 border-t border-white/5 relative">
       
-      {/* İnce ve zarif üst geçiş çizgisi */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[1px] bg-gradient-to-r from-transparent via-[#c0a062]/20 to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* Üst Kısım: Geniş ve Ferah 3 Kolonlu Yapı */}
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-12 md:gap-8 mb-20">
           
-          {/* 1. Kolon: Marka ve Özet */}
           <div className="flex flex-col items-start">
             <Link href="/" className="text-2xl font-playfair font-medium text-white tracking-widest mb-6 hover:text-[#c0a062] transition-colors inline-block">
               ALPEREN BÖRKLÜ
@@ -22,13 +19,11 @@ export default function Footer() {
             <p className="text-zinc-400 text-sm font-light leading-relaxed max-w-sm mb-8">
               A visual artist bridging the gap between design and cinematic storytelling. Crafting digital environments, motion, and art direction.
             </p>
-            {/* Lüks detay: Geniş aralıklı altı çizili mail bağlantısı */}
             <a href="mailto:hello@alperenborklu.com" className="text-sm font-medium text-white underline underline-offset-8 decoration-white/20 hover:decoration-[#c0a062] hover:text-[#c0a062] transition-all">
               hello@alperenborklu.com
             </a>
           </div>
 
-          {/* 2. Kolon: Navigasyon */}
           <div className="flex flex-col">
             <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-6">Explore</h4>
             <nav className="flex flex-col space-y-4">
@@ -44,7 +39,6 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* 3. Kolon: Sosyal Medya (İkon + Metin Kombinasyonu) */}
           <div className="flex flex-col">
             <h4 className="text-[10px] font-bold tracking-[0.3em] uppercase text-zinc-600 mb-6">Connect</h4>
             <div className="flex flex-col space-y-4">
